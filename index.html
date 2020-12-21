@@ -7,7 +7,7 @@
     <style>
         /* init start */
         html, body {
-            height: 100%;
+            height: 150%;
         }
         body {
             display: flex;
@@ -66,7 +66,37 @@
         }
         /* Oval end */
 
-        
+        /* triangle start*/
+        #triangle-top {
+            width: 0;
+            height: 0;
+            border-bottom: 140px solid yellowgreen;
+            border-left: 70px solid transparent;
+            border-right: 70px solid transparent;
+            margin-bottom: 5px;
+        }
+        #triangle-down {
+            width: 0;
+            height: 0;
+            border-top: 140px solid yellowgreen;
+            border-left: 70px solid transparent;
+            border-right: 70px solid transparent;
+        }
+        #triangle-left {
+            width: 0;
+            height: 0;
+            border-bottom: 70px solid transparent;
+            border-top: 70px solid transparent;
+            border-right: 140px solid yellowgreen;
+        }
+        #triangle-right {
+            width: 0;
+            height: 0;
+            border-bottom: 70px solid transparent;
+            border-left: 140px solid yellowgreen;
+            border-top: 70px solid transparent;
+        }
+        /* triangle end*/
     </style>
 </head>
 <body>
@@ -91,5 +121,20 @@
     <!-- Oval start -->
     <div id="oval"></div>
     <!-- Oval end -->
+
+    <!-- triangle top start -->
+    <div id="triangle-top"></div>
+    <!-- triangle top end -->
+    <!-- triangle down start -->
+    <div id="triangle-down"></div>
+    <!-- triangle down end -->
+    <!-- triangle left start -->
+    <div id="triangle-left"></div>
+    <!-- triangle left end -->
+    <!-- triangle right start -->
+    <div id="triangle-right"></div>
+    <!-- triangle right end -->
+    
+    
 </body>
 </html>
