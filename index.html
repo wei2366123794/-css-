@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* init start */
         html, body {
             height: 100%;
         }
@@ -14,6 +15,7 @@
             align-items: center;
             justify-content: space-around;
         }
+        /* init start */
         /* circle start */
         .circlemy {
             width: 100px;
@@ -47,6 +49,24 @@
         }
         /* rectangle end */
 
+        /* Oval start */
+        #ovalmy {
+            width: 130px;
+            height: 80px;
+            background: black;
+            border-radius: 50%;
+        }
+        #oval {
+            width: 200px;
+            height: 100px;
+            background: #e9337c;
+            -webkit-border-radius: 100px / 50px;
+            -moz-border-radius: 100px / 50px;
+            border-radius: 100px / 50px;
+        }
+        /* Oval end */
+
+        
     </style>
 </head>
 <body>
@@ -64,5 +84,12 @@
     <!-- rectangle start -->
     <div id="rectangle"></div>
     <!-- rectangle end -->
+
+    <!-- Ovalmy start -->
+    <div id="ovalmy"></div>
+    <!-- Ovalmy end -->
+    <!-- Oval start -->
+    <div id="oval"></div>
+    <!-- Oval end -->
 </body>
 </html>
