@@ -127,36 +127,36 @@ body {
     top: 0;
     width: 0;
     height: 0;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
-    border-bottom: 40px solid red;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
     transform: rotate(35deg);
 }
 #star::before {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -61px;
+    top: -60px;
     content: "";
     width: 0;
     height: 0;
     display: block;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
-    border-bottom: 40px solid black;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 80px solid black;
     transform: rotate(-35deg);
 }
 #star::after {
     position: absolute;
-    left: 0;
+    left: -102px;
     top: 0;
     content: "";
     width: 0;
     height: 0;
     display: block;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
-    border-bottom: 40px solid yellowgreen;
-    transform: rotate(50deg);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid yellowgreen;
+    transform: rotate(-70deg);
 }
 
 /* star end */
