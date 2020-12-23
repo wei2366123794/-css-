@@ -166,7 +166,7 @@ body {
     position: relative;
     width: 0;
     height: 0;
-    border-bottom: 70px solid red;
+    border-bottom: 120px solid red;
     border-left: 70px solid transparent;
     border-right: 70px solid transparent;
 }
@@ -177,7 +177,7 @@ body {
     top: 35px;
     width: 0;
     height: 0;
-    border-bottom: 70px solid red;
+    border-bottom: 120px solid red;
     border-left: 70px solid transparent;
     border-right: 70px solid transparent;
     transform: rotate(180deg);
