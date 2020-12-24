@@ -203,3 +203,34 @@ body {
     border-right: 80px solid transparent;
 }
 /* pentagon end */
+
+/* hexagon start */
+#hexagon {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background: yellowgreen;
+}
+#hexagon::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -50px;
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid yellowgreen;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+#hexagon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid yellowgreen;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+/* hexagon end */
