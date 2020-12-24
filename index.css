@@ -291,6 +291,6 @@ body {
     width: 136px;
     height: 190px;
     background: yellowgreen;
-    border-radius: 40px 40px 50px 50px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
 /* egg end */
