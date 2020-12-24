@@ -285,3 +285,12 @@ body {
     transform: rotate(-135deg);
 }
 /* heart end */
+
+/* egg start */
+#egg {
+    width: 136px;
+    height: 190px;
+    background: yellowgreen;
+    border-radius: 40px 40px 50px 50px;
+}
+/* egg end */
