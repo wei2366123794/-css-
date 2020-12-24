@@ -184,3 +184,22 @@ body {
 }
 /* starsix end */
 
+/* pentagon start */
+#pentagon {
+    position: relative;
+    width: 100px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 80px solid yellowgreen;
+}
+#pentagon::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: -145px;
+    width: 0;
+    border-bottom: 65px solid yellowgreen;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+}
+/* pentagon end */
