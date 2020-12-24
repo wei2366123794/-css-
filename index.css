@@ -234,3 +234,32 @@ body {
     border-right: 50px solid transparent;
 }
 /* hexagon end */
+
+/* octagon start */
+#octagon {
+    position: relative;
+    width: 100px;
+    height: 33px;
+    background: yellowgreen;
+}
+#octagon::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -33px;
+    width: 33px;
+    border-bottom: 33px solid yellowgreen;
+    border-left: 33px solid transparent;
+    border-right: 33px solid transparent;
+}
+#octagon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 33px;
+    width: 33px;
+    border-top: 33px solid yellowgreen;
+    border-left: 33px solid transparent;
+    border-right: 33px solid transparent;
+}
+/* octagon end */
