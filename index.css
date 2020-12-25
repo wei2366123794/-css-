@@ -294,3 +294,81 @@ body {
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
 /* egg end */
+
+/* infinity start */
+#infinity {
+	width: 220px;
+	height: 100px;
+	position: relative;
+}
+
+#infinity:before,#infinity:after {
+	content: "";
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 20px solid #06c999;
+	-moz-border-radius: 50px 50px 0;
+	border-radius: 50px 50px 0 50px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+#infinity:after {
+	left: auto;
+	right: 0;
+	-moz-border-radius: 50px 50px 50px 0;
+	border-radius: 50px 50px 50px 0;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}  
+
+/* infinity end */
+
+
+/* comment_bubble start */
+#comment_bubble {
+    width: 140px;
+    height: 100px;
+    background: #088cb7;
+    position: relative;
+    -moz-border-radius:    12px;
+    -webkit-border-radius: 12px;
+    border-radius:         12px;
+ 
+ }
+ #comment_bubble:before {
+    content:"";
+    width: 0;
+    height: 0;
+    right: 100%;
+    top: 38px;
+     position: absolute;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #088cb7;
+    border-bottom: 13px solid transparent;
+ }
+ /* comment_bubble end */
+
+ /* Pacman start*/
+ #pacman {
+	width: 0;
+	height: 0;
+	border-right: 70px solid transparent;
+	border-top: 70px solid #ffde00;
+	border-left: 70px solid #ffde00;
+	border-bottom: 70px solid #ffde00;
+	border-top-left-radius: 70px;
+	border-top-right-radius: 70px;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+}    
+ /* Pacman end */
